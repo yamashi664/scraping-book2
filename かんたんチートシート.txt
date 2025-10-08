@@ -1,0 +1,12 @@
+# 作業開始
+cd <プロジェクト>
+python3 -m venv .venv      # Windowsは py -m venv .venv でもOK
+source .venv/bin/activate  # Windowsは .\.venv\Scripts\Activate
+python -m pip install --upgrade pip
+pip install requests beautifulsoup4 lxml
+
+# 実行
+python your_script.py
+
+# 終了
+deactivate
